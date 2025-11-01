@@ -7,18 +7,18 @@ mtools package, which accesses MSDOS file systems.  I use it for file
 exchange with a Z80-PC simulator, but it works on floppy devices as well.
 Currently it contains:
 
-o  cpmls - list sorted directory with output similar to ls, DIR, P2DOS
+-  cpmls - list sorted directory with output similar to ls, DIR, P2DOS
    DIR and CP/M3 DIR[FULL]
-o  cpmcp - copy files from and to CP/M file systems
-o  cpmrm - erase files from CP/M file systems
-o  cpmchmod - change file permissions
-o  cpmchattr - change file attributes
-o  mkfs.cpm - make a CP/M file system
-o  fsck.cpm - check and repair a CP/M file system (only simple errors
+-  cpmcp - copy files from and to CP/M file systems
+-  cpmrm - erase files from CP/M file systems
+-  cpmchmod - change file permissions
+-  cpmchattr - change file attributes
+-  mkfs.cpm - make a CP/M file system
+-  fsck.cpm - check and repair a CP/M file system (only simple errors
    can be repaired so far).  Some images of broken file systems are provided
    for testing.
-o  fsed.cpm - view CP/M file system
-o  manual pages for everything including the CP/M file system format
+-  fsed.cpm - view CP/M file system
+-  manual pages for everything including the CP/M file system format
 
 All CP/M file system features are supported.  Password protection
 is ignored, because passwords are easy to decrypt, but a pseudo file
