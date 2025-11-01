@@ -1,0 +1,5 @@
+Changes since 2.8:
+
+o  Fixed cpmchmod, cpmrm and cpmchattr
+o  Added --with-diskdefs to specify alternate diskdefs path
+o  Rewrote code for writing blocks
